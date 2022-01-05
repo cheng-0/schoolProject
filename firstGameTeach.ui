@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="background">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>800</width>
+       <height>600</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(180, 178, 182);</string>
+     </property>
+     <property name="text">
+      <string>background Pic</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>621</width>
+       <height>491</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0.3);</string>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="page_1">
+      <widget class="QLabel" name="writtingVideo">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>551</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 230, 16, 0.5);</string>
+       </property>
+       <property name="text">
+        <string>The Video or GIF</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="conformButton">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>430</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>確認</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QLabel" name="info_1">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>551</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 230, 16, 0.5);</string>
+       </property>
+       <property name="text">
+        <string>恭喜你玩能五十音blablabla......</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="restButton">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>420</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>休息一下</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="acceptButton">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>420</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>接受挑戰</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="againButton">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>420</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>再來一次</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <widget class="QLabel" name="info_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>551</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 230, 16, 0.5);</string>
+       </property>
+       <property name="text">
+        <string>聽寫關卡說明</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="conformButton_2">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>420</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>了解</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_4"/>
+    </widget>
+    <widget class="QLabel" name="a">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>160</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="b">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>190</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="c">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>370</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="d">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>340</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="e">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>240</y>
+       <width>60</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </widget>
+    <zorder>background</zorder>
+    <zorder>a</zorder>
+    <zorder>b</zorder>
+    <zorder>c</zorder>
+    <zorder>d</zorder>
+    <zorder>e</zorder>
+    <zorder>stackedWidget</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
